@@ -1,13 +1,255 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/miama');
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
+  font-weight: 800;
+  font-style: 40px;
 }
 
 .display-flex{
   display: flex;
+
+}
+body{
+  background-color: black;
+  color: white;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.display-flex{
+  display: flex;
+}
+.navbar{
+
+  max-width: 1200px;
+  margin: 10px auto;
+ padding: 30px;
+  justify-content: space-between;
+}
+.nav-list button{
+  margin-left: 40px;
+   border:none;
+  padding: 8px 25px;
+  color: white;
+  background-color: transparent;
+  
+}
+.humbar{
+  display: none;
+}
+.text-style{
+  color: rgb(230, 83, 60);
+  font-size: 40px;
+}
+.nav-list .primary-btn{
+  background-color: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+/* banner container start  */
+.first-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 50px;
+  color: white;
+}
+.texts-container {
+  width: 50%;
+}
+.banner-text-container {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1em;
+  color: white;
+}
+.shape-text {
+  font-family: 'Miama';
+  margin: 0px;
+  font-weight: 400;
+  font-size: 78px;
+  font-weight: 400;
+}
+.text-container {
+  color: white;
+}
+.img-container img {
+  margin-left: 100px;
+}
+.box-parent {
+  background-color: rgba(48, 48, 48, 0.54);
+ max-width: 160px; 
+  gap: 31px;
+  padding: 11px 23px;
+  border-radius: 15px;
+bottom: 90px;
+  align-items: center;
+  position: absolute;
+  
+}
+.box-2 {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 24px;
+  border-radius: 15px;
+  position: absolute;
+  top: 130px;
+  right: -80px;
+}
+.text-p-color{
+  color: gray;
+}
+.img-container {
+  width: 40%;
+  justify-content: center;
+  position: relative;
+}
+.btn-desing{
+  border-radius: 15px;
+  padding: 50px;
+}
+.circle {
+  background-color: red;
+  width: 70px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.circle-text {
+  margin-left: 20px;
+}
+.digits {
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0;
+}
+.primary-btn{
+  padding: 15px;
+  padding-left: 40px;
+  border-radius: 18px;
+  background-color: #E6533C;
+  border: none;
+  color: #FFFFFF;
+ 
+  
+}
+.sec-btn{
+  padding: 15px;
+  padding-left: 40px;
+  border-radius: 18px;
+  background-color: black;
+  border: 1px solid white;
+  color: #FFFFFF;
+  margin-left: 20px;
+  margin: 20px;
+}
+/* banner container ends  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:568px){
+  /* banner start */
+  .nav-list{
+    display: none;
+  }
+.humbar{
+  display: block;
+  margin-left: 60px;
+}
+.first-container{
+  flex-direction: column;
+}
+.btnsection{
+  display: flex;
+  justify-content: center;
+}
+.box-2{
+  position: absolute;
+  top: 30px;
+  right: -320px;
+}
+
 }
