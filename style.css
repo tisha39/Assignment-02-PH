@@ -263,15 +263,10 @@ border-radius: 20px;
   justify-content: center;
   align-items: center;
 }
-.bmi_text h1{
-  color: white;
-}
-.bmi_text p{
-  color: rgb(204, 196, 196);
-}
+
 
 .containerbmi{
-  width: 1200px;  
+  width: 900px;  
 }
 
 .bmi-containertwo{
@@ -283,25 +278,23 @@ border-radius: 20px;
   display: flex;
   justify-content: space-between;
    align-items: center;
-   justify-content: center;
-   padding: 30px;
+
    border-radius: 15px;
   
   
 }
 
 .bmih1-header{
-  font-size: 28px;
+  font-size: 38px;
   font-weight: 900;
-  color:white ;
-  margin-top: -40px;
  
+  
  
 }
 .bmi_chart{
   margin-top: 20px;
 }
-.bmi_chart table{
+.bmi-table{
   width: 100%;
   border-collapse:collapse;
 }
@@ -310,13 +303,8 @@ border-radius: 20px;
   padding: 10px 15px;
   font-size: 16px;
 }
-.bmi_chart th{
-  color: white;
- 
-}
-.bmi_chart td{
-  color: rgb(204, 196, 196);
-}
+
+
 
 
 
@@ -330,7 +318,7 @@ border-radius: 20px;
 .your-bmi-section h1{
   font-size: 28px;
   font-weight: 900;
-  color:white ;
+ 
   margin-top: -20px;
   margin-bottom: 10px;
 }
@@ -358,13 +346,104 @@ border-radius: 20px;
  color: rgb(204, 196, 196);
   padding: 10px 15px ;
 }
+/* Meet Our Team section */
+
+.meet-team h1{
+    
+    font-size: 48px;
+    font-weight: 900;
+}
+.meet-team> #our-p{
+    color: rgb(204, 196, 196);
+    font-size: 16px;
+    margin-bottom: 5rem;
+}
+.meet-team>h1, p{
+    text-align: center;
+}
+ .team-card-meet>.card-person{
+   color: white;
+}
+
+.team-card-meet>.card-person-three{
+    color: rgb(156, 156, 156);
+    font-size: 14px;
+    margin-top: 20px;
+   
+}
+.meet-team img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+    border-radius: 18px;
+}
+
+.row{
+background: rgba(255, 255, 255, 0.2);
+}
+.row-team-one{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem 0;
+    gap: 1rem;
+}
+.team-card-meet{
+    position: relative;
+}
+.card-person{
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-person-three{
+    position: absolute;
+}
 
 
+.meet-container{
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.meet-team> .our-p{
+  color: rgb(204, 196, 196);
+  font-size: 16px;
+  margin-bottom: 5rem;
+}
+.meet-team>h1, p{
+  text-align: center;
+}
+
+.meet-team img{
+  width: 100%;
+  height: 100%;
+  filter: brightness(70%);
+  border-radius: 18px;
+}
 
 
-
-
-
+.row-team-one{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1rem 0;
+  gap: 1.3rem;
+}
+.team-card-meet{
+  position: relative;
+}
+.card-person{
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  font-size: 18px;
+  font-weight: bold;
+}
+.card-person-three{
+  position: absolute;
+}
 
 
 
@@ -512,16 +591,64 @@ border-radius: 20px;
       font-size: 20px;
   }
 
+  /* BMI Calculator start here */
+
+  .bmi_text{
+    margin-top: 550px;
+    text-align: center;
+   
+}
+.bmi_text h1{
+   margin-bottom: 10px;
+}
+.bmi_text p{
+    font-size: 14px;
+}
 
 
+.bmi_container{
+    margin-top: 60px;
+    width: 100%;
+    height: 720px;
+   
+}
 
 
+.header_two{
+  font-size: 26px;
+  margin-top: -280px;
+ 
+ 
+}
+
+.bmi_box{
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+
+}
+
+/* Meet Our Team section  */
 
 
+.meet-team h1{
+  font-size: 28px;
+}
+.meet-team> .our-p{
+  font-size: 14px;
+  margin-bottom: 3rem;
+}
+.team-card-meet>.card-person-three{
+  margin-top: 20px;
+}
+.meet-team img{
+  border-radius: 14px;
+}
 
-
-
-
+.row-team-one{
+  grid-template-columns: repeat( 1, 1fr);
+  margin: 1rem 0;
+  gap: 40px;
 
 
 
