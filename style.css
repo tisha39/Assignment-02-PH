@@ -247,7 +247,11 @@ border-radius: 20px;
 }
  /* BMI Calculator start here */
 
-
+ .bmi-container{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
 
 
 
@@ -267,7 +271,7 @@ border-radius: 20px;
 }
 
 .containerbmi{
-  width: 1040px;  
+  width: 1200px;  
 }
 
 .bmi-containertwo{
@@ -279,13 +283,14 @@ border-radius: 20px;
   display: flex;
   justify-content: space-between;
    align-items: center;
+   justify-content: center;
    padding: 30px;
    border-radius: 15px;
   
   
 }
 
-.header_two{
+.bmih1-header{
   font-size: 28px;
   font-weight: 900;
   color:white ;
@@ -355,9 +360,7 @@ border-radius: 20px;
 }
 
 
-.btnAll{
-  background-color: #ff453a;
-  }
+
 
 
 
