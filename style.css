@@ -151,12 +151,43 @@ bottom: 90px;
 /* banner container ends  */
 
 
+/* change your habit start here */
 
+.habit-container{
+  max-width: 1200px;
+  margin: 50px auto;
+  text-align: center;
+ padding-bottom: 30px;
+line-height: 40px;
 
+}
 
+.habit-text{
+  font-size: 2.8em;
+}
+.habit-images-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
-
-
+.habit_image_p> h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.habit-img-p> p{
+  color: rgb(204, 196, 196);
+  font-size: 14px;
+}
+.habit-img-p{
+  text-align: center;
+}
+.habit-img-p>img{
+  background-color: black;
+  border-radius:100% ;
+}
 
 
 
@@ -245,11 +276,19 @@ bottom: 90px;
 .btnsection{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .box-2{
   position: absolute;
   top: 30px;
   right: -320px;
 }
-
+.primary-btn{
+  padding: 15px;
+  padding-left: 40px;
+  border-radius: 18px;
+  background-color: #E6533C;
+  border: none;
+  color: #FFFFFF;
+}
 }
